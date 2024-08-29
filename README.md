@@ -8,11 +8,11 @@ This is a simple Docker project that prints "Hello, Captain!" to the console whe
 
 The `Dockerfile` is straightforward and contains the following instructions:
 
-- **FROM alpine:latest**: This line specifies the base image for the Docker container. We use the latest version of Alpine Linux, a lightweight Linux distribution perfect for small and efficient Docker images.
+- `FROM alpine:latest`: This line specifies the base image for the Docker container. We use the latest version of Alpine Linux, a lightweight Linux distribution perfect for small and efficient Docker images.
 
-- **CMD ["echo", "Hello, Captain!"]**: This line sets the command to be executed when the Docker container is started. It runs the `echo` command, which prints "Hello, Captain!" to the console.
+- `CMD ["echo", "Hello, Captain!"]`: This line sets the command to be executed when the Docker container is started. It runs the `echo` command, which prints "Hello, Captain!" to the console.
 
-## How to Build and Use the Docker Image
+## Build and Use the Docker Image
 
 Follow these steps to build and run the Docker image:
 
