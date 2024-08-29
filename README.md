@@ -16,6 +16,13 @@ The `Dockerfile` is straightforward and contains the following instructions:
 
 ## Build and Use the Docker Image
 
+### Prerequisites
+
+1. Before building and running this Docker image, ensure you have Docker installed on your system. Download and install Docker from the [official Docker website](https://www.docker.com/get-started).
+2. Either manually create a Dockerfile and copy the content of the Dockefile from this repo or clone this repo locally.
+
+### Instructions
+
 Follow these steps to build and run the Docker image:
 
 1. **Build the Docker Image**
@@ -33,11 +40,3 @@ This command builds the Docker image and tags it with the name `hello-captain`.
    docker run --rm hello-captain
    ```
 This command runs the Docker container, which prints "Hello, Captain!" to the console. The `--rm` flag automatically removes the container after it exits.
-
-## Project Structure
-
-```text
-.
-├── Dockerfile
-└── README.md
-```
